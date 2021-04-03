@@ -10,6 +10,10 @@ You'll also need your environment configured with AWS credentials.
 > aws configure
 
 > aws iam get-user
+> 
+<img width="370" alt="aws-configure" src="https://user-images.githubusercontent.com/29147844/113479333-20c50280-94ac-11eb-84b3-8a195bff7650.png">
+<img width="415" alt="iam-get-user" src="https://user-images.githubusercontent.com/29147844/113479336-21f62f80-94ac-11eb-9614-dbee72e7aacd.png">
+
 
 ## Create and deploy a single endpoint
 1. create a folder lets say `express-aws`
@@ -86,8 +90,11 @@ functions:
   app: rupesh-express-application-dev-app
 layers:
   None
-
+```
 now, visit above endpoint in browser and you will see hello rupesh printed.
+
+<img width="858" alt="api-endpoint" src="https://user-images.githubusercontent.com/29147844/113479352-376b5980-94ac-11eb-94b8-96e47d4bce0c.png">
+
 
 Congratulations!! Your application is live!
 
